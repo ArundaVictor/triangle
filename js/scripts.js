@@ -1,6 +1,7 @@
 function triangle(a, b, c) {
 
 };
+
 var a = parseInt(prompt("Enter the value of side a"));
 var b = parseInt(prompt("Enter the value of side b"));
 var c = parseInt(prompt("Enter the value of side c"));
