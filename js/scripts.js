@@ -10,7 +10,7 @@ if ((a === b && a === c & b === c)) {
   alert("The triangle is an Equilateral triangle")
 } else if ((a !== b && a !== c && b !== c)) {
   alert("The triangle is a Scalene triangle")
-} else if ((a === b || a === c || b === c)) {
+} else if ((a+b<=c || a+c<=b || b+c<=a)) {
   alert("The triangle is an isoceles triangle")
 } else {
   alert("That is not a triangle")
