@@ -1,10 +1,7 @@
-function triangle(a, b, c) {
-
-};
-
-var a = parseInt(prompt("Enter the value of side a"));
-var b = parseInt(prompt("Enter the value of side b"));
-var c = parseInt(prompt("Enter the value of side c"));
+function triangle() {
+var a = parseInt(document.getElementById("sideA"));
+var b = parseInt(document.getElementById("sideB"));
+var c = parseInt(document.getElementById("sideC"));
 
 if ((a === b && a === c & b === c)) {
   alert("The triangle is an Equilateral triangle")
@@ -14,4 +11,5 @@ if ((a === b && a === c & b === c)) {
   alert("The triangle is an isoceles triangle")
 } else {
   alert("That is not a triangle")
+}
 }
