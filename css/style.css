@@ -1,17 +1,17 @@
-.style{
+.style {
   padding: 8px;
   border: 10px solid black;
   margin: 20px;
   text-align: center;
 }
 
-h1{
+h1 {
   text-align: center;
   color: blue;
   background-color: white;
 }
 
-.list{
+.list {
   font-style: italic;
   font-family: sans-serif;
 }
