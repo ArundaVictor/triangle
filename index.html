@@ -5,27 +5,32 @@
 <head>
   <meta charset="utf-8">
   <script src="js/scripts.js" charset="utf-8"></script>
+  <link rel="stylesheet" href="css/style.css">
   <title>Triangles</title>
 </head>
 
-<body background = "images/new.jpg">
+<body background="images/new.jpg">
   <h1>Triangle Tracker</h1>
   <p>A triangle can be defined as a polygon with three sides and three angles. There are different types of triangles and are all characterized by different properties such as length of the sides or number of angles. The angles within a triangle add
     up to 180 degrees.</p>
-  <form class="" action="index.html" method="post">
-    <br><label for="Enter value of side A">Enter value of side A</label><br>
-    <input type="number" name="Enter value of side A" id="sideA" required>
+  <div class="style">
 
-    <br><label for="Enter value of side B">Enter value of side B</label><br>
-    <input type="number" name="Enter value of side B" id="sideB" required>
 
-    <br><label for="Enter value of side C">Enter value of side C</label><br>
-    <input type="number" name="Enter value of side C" id="sideC" required>
+    <form class="" action="index.html" method="post">
+      <br><label for="Enter value of side A">Enter value of side A</label><br>
+      <input type="number" name="Enter value of side A" id="sideA" required>
 
-    <br><button type="submit" onclick="triangle()">Submit</button><br>
-    <br><button type="reset" name="reset">Reset</button><br>
+      <br><label for="Enter value of side B">Enter value of side B</label><br>
+      <input type="number" name="Enter value of side B" id="sideB" required>
 
-  </form>
+      <br><label for="Enter value of side C">Enter value of side C</label><br>
+      <input type="number" name="Enter value of side C" id="sideC" required><br>
+
+      <br><button type="submit" onclick="triangle()">Submit</button><br>
+      <br><button type="reset" name="reset">Reset</button><br>
+
+    </form>
+  </div>
 
 
 
