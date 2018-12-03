@@ -1,15 +1,20 @@
-function triangle() {
-var a = parseInt(document.getElementById("sideA"));
-var b = parseInt(document.getElementById("sideB"));
-var c = parseInt(document.getElementById("sideC"));
-
-if ((a === b && a === c & b === c)) {
+var sides = []
+function triangle(sides) {
+var a = parseInt(document.getElementById("sideA").value);
+var b = parseInt(document.getElementById("sideB").value);
+var c = parseInt(document.getElementById("sideC").value);
+var sides = [];
+sides.push(a, b, c);
+var e = sides[0]
+var f = sides[1]
+var g = sides[2]
+if ((e===f && e===g && f===g)) {
   alert("The triangle is an Equilateral triangle")
-} else if ((a !== b && a !== c && b !== c)) {
+} else if ((e!==f && e!==g && f!==g)) {
   alert("The triangle is a Scalene triangle")
-} else if ((a+b<=c || a+c<=b || b+c<=a)) {
+} else if ((e==f || e==g || f==g)) {
   alert("The triangle is an isoceles triangle")
 } else {
-  alert("That is not a triangle")
+  alert("That is not a triangle");
 }
 }
