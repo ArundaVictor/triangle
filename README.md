@@ -12,6 +12,11 @@ The website is used for tracking different types of triangles. There are three t
 * Clink on the website link provided
 * Internet connection is required
 
+## Behaviour driven Development (BDD)
+* The user is able to enter the values of the triangle.
+* The user can reset if they have entered incorrect values and start over.
+* The user after pressing the submit button will find out which triangle the three values form.
+
 
 ## Known Bugs
 There are no known bugs as at now but in case of any you may find please contact me.
