@@ -15,7 +15,7 @@ function triangle(sides) {
     alert("The triangle is a Scalene triangle")
   } else if ((e == f || e == g || f == g)) {
     alert("The triangle is an isoceles triangle")
-  } else {
+  } else if ((e+f<=g || e+g<=f || g+f<=e))
     alert("That is not a triangle");
   }
 }
