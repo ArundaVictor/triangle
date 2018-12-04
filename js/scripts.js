@@ -11,7 +11,7 @@ function triangle(sides) {
   var g = sides[2]
   if ((e === f && e === g && f === g)) {
     alert("The triangle is an Equilateral triangle")
-  } else if ((e !== f && e !== g && f !== g)) {
+  } else if ((e+f>=g && e+g>=f && f+g>=e)) {
     alert("The triangle is a Scalene triangle")
   } else if ((e == f || e == g || f == g)) {
     alert("The triangle is an isoceles triangle")
